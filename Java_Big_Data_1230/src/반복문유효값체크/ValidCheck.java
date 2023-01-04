@@ -16,7 +16,7 @@ public class ValidCheck {
             age = Integer.parseInt(br.readLine());
             if(age > 0 && age <200)break;
             System.out.println("나이를 잘못 입력하셨습니다.");
-            break;
+
         }
         System.out.println("입력하신 나이는  " + age);
     }
