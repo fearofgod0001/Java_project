@@ -35,7 +35,7 @@ public abstract class Car {
         return(double) dist * moveCnt / speed;
     }
 
-    //dasd
+
 
 
 
