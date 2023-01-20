@@ -14,5 +14,7 @@ public class SportCar extends Car{
     public void setMode(boolean isMode) {
         if(isMode) speed *= 1.2;
 
+
+
     }
 }
