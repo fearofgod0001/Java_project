@@ -6,46 +6,36 @@ import java.util.*;
 //정수 입력
 public class OddEvenSeparator {
 
-    int[] inputArr = new int[7];
-    int[] oddArr = new int[7];
-    int[] evenArr = new int[7];
-    int e = 0;
-    int o = 0;
+    List<Integer>inputArr = new ArrayList<>();
+    List<Integer>oddArr = new ArrayList<>();
+    List<Integer>evenArr = new ArrayList<>();
 
     void setInputArr() {
         System.out.println("정수 7개를 입력하세요 : ");
+        int value = 0;
         Scanner sc = new Scanner(System.in);
-        for (int i = 0; i < inputArr.length; i++) {
-            inputArr[i] = sc.nextInt();
+        while(true){
+            value = sc.nextInt();
+            if(value == 999) break;
+            inputArr.add(value);
         }
     }
 
     void separatorArray() {
 
-        for (int i : inputArr) {
-            if (i % 2 == 0) {
-                evenArr[e] = i;
-                e++;
-            } else {
-                oddArr[o] = i;
-                o++;
+        for (int e : inputArr) {
+            if (e % 2 == 0) evenArr.add(e);
+            else oddArr.add(e);
             }
         }
-    }
+
 
     void printArray() {
-        System.out.println("홀수와 짝수를 찾습니다 odd(홀수) / even(짝수)");
-        Scanner sc = new Scanner(System.in);
-        String find = sc.next();
-        if (find.equalsIgnoreCase("odd")) {
-            for (int i = 0; i < o; i++) {
-                System.out.print(oddArr[i] +" ");
-                         }
-            System.out.println();
-        }else{
-                for (int i = 0; i < e; i++) {
-                    System.out.print(evenArr[i] + " ");
-                }System.out.println();
-            }
-        }
+        System.out.println("홀수 : ");
+        for (int e : oddArr) System.out.print(e + " ");
+        System.out.println();
+        System.out.println("홀수 : ");
+        for (int e : evenArr) System.out.print(e + " ");
+    }
+
     }

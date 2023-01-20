@@ -28,7 +28,7 @@ class Parent {
 class Child extends Parent{
     int b;
     Child(){
-        super(200); // 가장 먼저 불러줘야함.
+        super(200); // 가장 먼저 불러줘야함. 부모가 생성자를 가지고 있으면 무조건 나와야 함!!
         System.out.println("자식의 생성자 호출");
         //super(200);
         b=20;

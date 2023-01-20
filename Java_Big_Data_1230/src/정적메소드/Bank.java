@@ -9,8 +9,6 @@ public class Bank {
         this.bank = name;
         this.account = account;
         System.out.println(name + "은행에 계좌 개설을 합니다. 잔액은 " + account + " 입니다.");
-
-
     }
     public static int getCount(){ //정적 필드값을 읽기 위한 정적 메소드 (클래스 소속)
         return count;

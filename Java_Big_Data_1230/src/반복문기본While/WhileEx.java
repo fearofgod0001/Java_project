@@ -1,4 +1,4 @@
-package 반복문기본;
+package 반복문기본While;
 
 public class WhileEx {
     public static void main(String[] args) {

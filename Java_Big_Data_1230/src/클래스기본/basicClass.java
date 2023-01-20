@@ -7,6 +7,7 @@ public class basicClass {
         gv80.viewCar();
         gv80.name = "GV80 깡통";
         gv80.viewCar();
+        gv80.viewCar();
     }
 }
 class Car{
@@ -18,6 +19,8 @@ class Car{
     //생성자 : 클래스 이름과 동일하고 반환 타입이 없다. void조차 없다.
     //생성자는 주로 개체 생성 시 객체 내부의 필드를 초기화 하는 목적으로 사용된다.
     //필드는 생성자의 매개변수로 전달 된다.( 객체를 생성하는 곳에서...)
+
+
     Car(String name,String color, String year, int speed){
         this.name = name; // 전달받은 매개 변수와 객체 내부의 필드의 이름이 같은 경우는 숨겨진 this 적어야 함
         this.color=color;

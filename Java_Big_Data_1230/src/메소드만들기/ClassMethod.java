@@ -16,7 +16,10 @@ public class ClassMethod {
         int rst = sm.sum(n1,n2); // sum()
         System.out.println(rst);
 
-      sm.say();
+      sm.say(); //호출하기 위해서는 클래스를 객체로 만들고 객체의 메소드로 접근
         System.out.println(sm.sayStr());
+
+        int rst2 = sm.sum(1,2,3,4,5);
+        System.out.println(rst2);
     }
 }

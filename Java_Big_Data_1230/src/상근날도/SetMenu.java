@@ -11,25 +11,25 @@ public class SetMenu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int arr[] = new int[5];
+        int menu[] = new int[5]; //5개 메뉴
+        System.out.print("메뉴 입력 : ");
+        for(int i = 0; i < menu.length; i++){
 
-        for(int i = 0; i < arr.length; i++){
-
-            arr[i] = sc.nextInt();
+            menu[i] = sc.nextInt();//배열의 길이만큼 값을 계속 입력받음
         }
 
-        int hammin = arr[0];
-        int cokmin = arr[0];
+        int minBurger = menu[0];
+        int minDrink = menu[3];
 
         for(int i=0; i <=2 ;i++){
-            hammin = Math.min(arr[i],hammin);
+            minBurger = Math.min(menu[i],minBurger);
         }
         for(int i=3; i <=4;i++){
-            cokmin = Math.min(arr[i],cokmin);
+            minDrink = Math.min(menu[i],minDrink);
         }
 
 
 
-        System.out.printf("햄버거의 가격은 %d 음료의 가격은%d 세트 가격은 %d",hammin,cokmin,(hammin+cokmin-50));
+        System.out.printf("햄버거의 가격은 %d 음료의 가격은%d 세트 가격은 %d",minBurger,minDrink,(minBurger+minDrink-50));
     }
 }

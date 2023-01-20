@@ -7,5 +7,6 @@ public class PolyBuyer {
         Audio audio = new Audio();
         Computer computer = new Computer();
         buyer.buy(tv);
+        buyer.viewInfo();
     }
 }

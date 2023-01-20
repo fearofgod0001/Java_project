@@ -27,6 +27,7 @@ public class AirConMain {
                         if(elapsedTime >=20) isSetTemp = true; break;
                     default:
                 }
+                
                 if(isSetTemp){
                     if(lgAirCon.isHeater()) lgAirCon.setCurrTemp(1);
                     if(lgAirCon.isCooler()) lgAirCon.setCurrTemp(-1);

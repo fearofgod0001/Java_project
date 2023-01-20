@@ -6,7 +6,7 @@ public class Driver {
         this.name = name;
     }
     public void drive(Vehicle vehicle){
-    System.out.println(name + "의 ");
+    System.out.print(name + "의 ");
     vehicle.run();
     }
 }
