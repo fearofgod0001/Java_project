@@ -21,7 +21,7 @@ public class ResistanceEx {
             if(color2.equals(color[i])) sndrst = i;
             if(color3.equals(color[i])) trdrst = i;
         }
-
+        //Math.pow(10,몇 승인지)
         String rstt = value[firrst] + value[sndrst] ;
         System.out.println(rstt);
         long result = Long.parseLong(rstt) * mul[trdrst];
