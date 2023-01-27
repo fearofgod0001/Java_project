@@ -26,5 +26,10 @@ public class SystemTestEx {
         System.out.println("총 검색 횟수 : " + cnt);
         System.out.println("검색에 소요된 시간 : " + (time2 - time1) + "밀리초");
 
+
+        //시스템 프로퍼티 읽기
+        System.out.println(System.getProperty("os.name")); //os.name 키 값을 넣으면 해당 정보를 반환
+        System.out.println(System.getProperty("user.name")); //os.name 키 값을 넣으면 해당 정보를 반환
+
     }
 }
