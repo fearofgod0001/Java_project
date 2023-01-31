@@ -4,7 +4,7 @@ import java.util.*;
 
 public class LottoArrayList {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new Vector<>();
         int tmp;
         while(true){
             tmp = (int)(Math.random()*45)+1;
