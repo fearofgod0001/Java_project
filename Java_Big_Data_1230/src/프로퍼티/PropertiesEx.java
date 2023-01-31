@@ -12,9 +12,11 @@ import java.util.Properties;
 public class PropertiesEx {
     public static void main(String[] args) throws IOException {
         Properties properties = new Properties(); //HashTable에서 상속
-        String path = PropertiesEx.class.getResource("../database.properties").getPath();
+        String path = PropertiesEx.class.getResource("../회원정보조합/database.properties").getPath();
         path = URLDecoder.decode(path,"utf-8"); // 한글이 포함 되는 이를 해석하기 위한 코드
         properties.load(new FileReader(path)); //
+
+
         String driver = properties.getProperty("driver");
         String url = properties.getProperty("url");
         String username = properties.getProperty("username");
