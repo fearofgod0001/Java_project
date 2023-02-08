@@ -63,7 +63,7 @@ public class StreamEx5 {
         Stream<String>stream11 = Stream.of("HTML","CSS","JAVA", "JAVASCRIPT");
         stream10.sorted().forEach(s -> System.out.println(s+ ""));
         System.out.println();
-        stream11.sorted(Comparator.reverseOrder()).forEach(s ->System.out.print(s + " ");
+        stream11.sorted(Comparator.reverseOrder()).forEach(s ->System.out.print(s + " "));
 
 
 
