@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 // distinct() : 스트림에서 중복된 요소를 제거
 public class StreamEx5 {
     public static void main(String[] args) {
-//        int []arr = {1,2,3,4,5,6,7,8,9};
+        int []arr = {1,2,3,4,5,6,7,8,9};
 //
 //        IntStream stream1 = IntStream.of(arr);
 //        IntStream stream2 = IntStream.of(arr);
@@ -25,9 +25,9 @@ public class StreamEx5 {
 //        list.stream().filter(n->n%2 != 0).forEach(e ->System.out.print(e + " "));
 //
 //
-//        int []arr1 = {1,2,3,4,5,6,7,8,9};
-//        List<int[]> list2 = Arrays.asList(arr1);
-//        //list2.stream().filter(m->m%2 !=0).forEach(e ->System.out.println(e + " "));
+       // int []arr1 = {1,2,3,4,5,6,7,8,9};
+        //List<Integer> list2 = new ArrayList<>(arr);
+       // list2.stream().filter(m->m%2 !=0).forEach(e ->System.out.println(e + " "));
 //
 //        //슽트림 변환 : 해당 스트림의 요소들에 주어진 함수의 인수로 전달하여,
 //        // 그 반환 값으로 이루어진 새로운 스트림 생성
