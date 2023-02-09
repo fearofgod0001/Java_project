@@ -1,4 +1,4 @@
-package 함수형프로그램예제7번;
+package 스트림예제7번;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package 함수형프로그램예제4번;
+package 스트림예제4번;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

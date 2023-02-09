@@ -1,4 +1,4 @@
-package 함수형프로그램예제6번;
+package 스트림예제6번;
 
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;

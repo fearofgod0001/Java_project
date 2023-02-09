@@ -1,4 +1,4 @@
-package 함수형프로그램스트림예제2번;
+package 스트림예제2번;
 
 import java.util.ArrayList;
 import java.util.List;

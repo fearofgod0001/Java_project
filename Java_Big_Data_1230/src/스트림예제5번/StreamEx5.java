@@ -1,4 +1,4 @@
-package 함수형프로그램예제5번;
+package 스트림예제5번;
 
 import java.util.*;
 import java.util.stream.IntStream;

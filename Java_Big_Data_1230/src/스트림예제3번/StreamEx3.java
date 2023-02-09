@@ -1,4 +1,4 @@
-package 함수형프로그램스트림예제3번;
+package 스트림예제3번;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
