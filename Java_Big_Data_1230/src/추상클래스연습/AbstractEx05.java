@@ -5,6 +5,9 @@ package 추상클래스연습;
 //단일 상속만 지원 함.
 public class AbstractEx05 {
     public static void main(String[] args) {
-
+        SmartPhone smartPhone = new SmartPhone("Galaxy S23");
+        smartPhone.setPower(true);
+        smartPhone.internet();
+        smartPhone.call();
     }
 }
