@@ -1,4 +1,6 @@
 package 흐테스트;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.*;
 public class RangeCalcEx1 {
     public static void main(String[] args) {
@@ -23,6 +25,7 @@ public class RangeCalcEx1 {
         }
         list.stream().forEach(e -> System.out.println(e));
 
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
 
     }
