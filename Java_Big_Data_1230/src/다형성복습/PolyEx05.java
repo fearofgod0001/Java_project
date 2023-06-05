@@ -18,8 +18,6 @@ public class PolyEx05 {
             case 1 : driver.drive(bus); break;
             case 2 : driver.drive(taxi); break;
             case 3 : driver.drive(sportsCar); break;
-
         }
-
     }
 }
